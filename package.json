@@ -7,6 +7,15 @@
     "pretest": "eslint src test",
     "test": "lab"
   },
+  "engines": {
+    "node": ">= 6.9.1"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "es6",
+    "chain"
+  ],
   "repository": "git@github.com:delta62/promise-do.git",
   "author": "Sam Noedel <sam.noedel@gmail.com>",
   "license": "MIT",
