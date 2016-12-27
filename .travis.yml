@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - 6
+- 6
+deploy:
+  provider: npm
+  email: sam.noedel@gmail.com
+  api_key:
+    secure: ioOate5j1Dn/CaZ5XGcCqJALYpjnB0Lv6NBsrYS4H/tbFx8q+oxkdkfWjEbd7tjgfHcXmE7D4HIGnad5TlzmdoWDnQriaFnr5vsxTVmJJr6jmVO0fTg6s5XpC4/4rbYHC7iQypZasV7zlDm2CLcBB8w7gYnN/tMMZ4W0v4oTxD3z3sTL96djj55SXn/3CubeMYwRQQ9UWm0qRxJ2GPCnG+byKm7hBTG5/ROvCIfGexzIYBZl3ZatX51IGLIm1ZdSsu7CQ0AgI+jzuEC44YcD49XPSUO7FTv0MudYe0w/kxN1fd+DDz1pt91muux6oF8TlRJPYRX1tudnA49p42MduIbBJabaSY1HE8LYWt0slOEpENaco+tlJFON0wH0dpJ6bB6x1MNgXPRcjQwj2qILqvjMbnbkYOiqYycsebNDDFcy/kFRSiKNPVzx3smJGttWWXfa/N+wJXQWH1glQ+u4B0XScWN6gP/DDc9SejNdieKkkzo9If3M8ar6UxvVhfxHR+Qn+FC9yDvaiQkCFZxDmG0B1G3vxza0gEnkBRuZOpaQK+ziqi/WpyqgnhBvrcyZUcMgaTgrlGWLYLNc9I7bnkNelvRgNMeZYNZP7ZEu1W3OeLWw0JmL6WTw9IJUQenhp0BWhcIt15cO1o2Etyk9xMUUwIjJ4/EbqkusF4O0mg8=
+  on:
+    tags: true
+    repo: delta62/promise-do
