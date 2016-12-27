@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/delta62/promise-do.svg?branch=master)](https://travis-ci.org/delta62/promise-do)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/promise-do)
 # promise-do
 
 Perform operations in your promise chain without breaking it
