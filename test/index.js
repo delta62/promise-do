@@ -1,5 +1,3 @@
-'use strict';
-
 const { expect } = require('code'),
   Lab = require('lab'),
   lab = exports.lab = Lab.script();

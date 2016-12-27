@@ -1,5 +1,3 @@
-'use strict';
-
 Promise.prototype.do = function promiseDo(fn) {
   return this.then(val => {
     let result = fn(val);
