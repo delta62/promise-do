@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "pretest": "eslint src test",
     "test": "lab"
   },
   "repository": "git@github.com:delta62/promise-do.git",
@@ -10,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "code": "^4.0.0",
+    "eslint": "^3.12.2",
     "lab": "^11.2.1"
   }
 }

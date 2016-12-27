@@ -28,7 +28,7 @@ lab.test('waits for promises returned from `do`', done => {
   let callCount = 0;
   Promise.resolve()
     .do(() => {
-      return new Promise((resolve, reject) => {
+      return new Promise(resolve => {
         setTimeout(() => {
           callCount += 1;
           resolve();
@@ -42,7 +42,7 @@ lab.test('waits for promises returned from `do`', done => {
 lab.test('passes rejections produced from `do`', done => {
   Promise.resolve()
     .do(() => {
-      let err = new Error(`Nice weather we're having`);
+      let err = new Error('Nice weather out there.');
       return Promise.reject(err);
     })
     .catch(() => done());
