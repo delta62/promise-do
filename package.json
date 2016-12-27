@@ -2,7 +2,14 @@
   "name": "promise-do",
   "version": "0.0.1",
   "main": "index.js",
+  "scripts": {
+    "test": "lab"
+  },
   "repository": "git@github.com:delta62/promise-do.git",
   "author": "Sam Noedel <sam.noedel@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.2.1"
+  }
 }
