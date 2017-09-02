@@ -1,7 +1,7 @@
 {
   "name": "promise-do",
   "description": "Perform operations in your promise chain without breaking it",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "pretest": "eslint src test",
